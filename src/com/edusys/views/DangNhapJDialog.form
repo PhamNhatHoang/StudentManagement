@@ -131,8 +131,11 @@
         </Component>
         <Component class="javax.swing.JTextField" name="txtMaNV">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Hoang2004"/>
+            <Property name="text" type="java.lang.String" value="HoangPN"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMaNVActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>

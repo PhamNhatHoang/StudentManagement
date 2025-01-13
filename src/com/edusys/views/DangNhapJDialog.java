@@ -57,7 +57,12 @@ public class DangNhapJDialog extends javax.swing.JDialog {
 
         jLabel2.setText("Tên đăng nhập");
 
-        txtMaNV.setText("Hoang2004");
+        txtMaNV.setText("HoangPN");
+        txtMaNV.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtMaNVActionPerformed(evt);
+            }
+        });
 
         jLabel3.setText("Mật khẩu");
 
@@ -170,6 +175,10 @@ public class DangNhapJDialog extends javax.swing.JDialog {
         // TODO add your handling code here:
         MsgBox.alert(this, "Coming soon!!!");
     }//GEN-LAST:event_btnQMKActionPerformed
+
+    private void txtMaNVActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMaNVActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtMaNVActionPerformed
 
     /**
      * @param args the command line arguments
